@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/butstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/may.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<!-- топ контакты-- и корзина -->
+		<div class="top_cont container d-flex align-items-center justify-content-between">
+			<a href="">
+				<img src="img/svg/logo 2.svg" alt="logo">
+			</a>
+			<div class="top_cont_div d-flex justify-content-between">
+				<div class="map__top">
+					<img src="img/svg/maps-and-flags.svg" alt="">
+					<span>
+						г.Чехов, ул. Береговая 35
+					</span>
+				</div>
+				<div class="mail_top">
+					<a href="">
+						<img src="img/svg/close-envelope.svg" alt="">
+						info0112888@gmail.com 
+					</a>
+				</div>
+				<div class="phone_top">
+					<a href="">
+						<img src="img/svg/phone-receiver.svg" alt="">
+						8-495-125-84-04
+					</a>
+				</div>
+			</div>
+			<div class="basket">
+				<a href="#">
+					<span>
+					</span>
+				</a>
+			</div>
+		</div>
+		<!-- nav__header -->
+		<div class="ofer ofer__heder">
+			<div class="nav__header">
+				<nav class="navbar navbar-expand-lg navbar-light container">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto" id="MyMenu">
+							<li class="nav-item">
+								<a  href="#">Главная</a>
+							</li>
+							<li class="nav-item">
+								<a href="#">Магазин</a>
+							</li>
+							<li class="nav-item">
+								<a  href="#">Ремонт септиков</a>
+							</li>
+							<li class="nav-item">
+								<a  href="#">О нас</a>
+							</li>
+							<li class="nav-item">
+								<a  href="#">Контакты и доставка</a>
+							</li>
+						</ul>
+						<form class="ml-auto search">
+							<input type="text" placeholder="Введите название товара">
+							<button>
+								
+							</button>
+						</form>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="section_shop">
+		<div class="shop__index d-flex justify-content-between container">
+			<!-- nav__shop -->
+			<div class="nav__shop">
+				<p class="nav__shop__title">
+					Каталог
+				</p>
+				<ul class="nav__shop__ul">
+					<li>
+						<a href="#">
+							Насосное оборудование
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Готовые комплекты для пруда и<br>аэраторы
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Биопрепараты (хим. средства)
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Биозагрузка
+						</a>
+					</li>
+					<li class="min__compres min_li">
+						<a href="#">
+							Компрессоры
+						</a>
+						<img src="img/svg/arrow-point-to-right 2.1.svg" alt="">
+						<div class="drobdaun_content compres-drobdaun">
+							<ul>
+								<li>
+									<a href="">
+										Компрессоры SECOH
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Компрессоры HIBLOW
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Компрессоры AIRMAC
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Компрессоры THOMAS
+									</a>
+								</li>
+								<li>
+									<a href="">
+										Компрессоры HAILEA
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							Аэрационные элементы
+						</a>
+					</li>
+					<li class="min__colplect min_li">
+						<a href="#">
+							Комплектующие<br>
+							к компрессорам
+						</a>
+						<img src="img/svg/arrow-point-to-right 2.1.svg" alt="">
+						<div class="drobdaun_content colplect__drobdaun">
+							<ul>
+								<li>
+
+								</li>
+								<li>
+
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="min__septic min_li">
+						<a href="#">
+							Септики
+						</a>
+						<img src="img/svg/arrow-point-to-right 2.1.svg" alt="">
+						<div class="drobdaun_content septic__drobdaun">
+							<ul>
+								<li>
+									<a href="">
+										ТОПАС
+									</a>
+								</li>
+								<li>
+									<a href="">
+										АСТРА
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="li__clo">
+						<a href="#">
+							Запчасти для септиков
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- catalog_shop -->
+			<div class="catalog_shop">
+				<!-- catalog_shop_nav -->
+				<div class="catalog_shop_nav d-flex justify-content-between align-items-center">
+					<div class="bread__crumbs">
+						<a href="">Главная</a>
+						<a href="">/ Магазин</a>
+					</div>
+					<div class="filters">
+						<select>
+							<option>По популярности</option>
+						</select>
+					</div>
+				</div>
+				<div class="shop_card d-flex justify-content-between flex-wrap">
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+					<!-- карточка товара -->
+					<div class="cart_shop">
+						<!-- Фото товара -->
+						<div class="cart_pfoto d-flex justify-content-center">
+							<img src="img/kompressor_hiblow_hp_80_foto.png" alt="" class="text-center">
+						</div>
+						<!-- Название товара -->
+						<h4 class="title_card">	
+							Магнит для компрессора 
+							Airmac DB 80
+						</h4>
+						<!-- Цена товара -->
+						<p class="prais_card">
+							5 000 руб
+						</p>
+						<!-- кнопка -->
+						<a href="#" class="btn__card text-center">В корзину</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<div class="shop__bottom">
+		<div class="shop__bottom_ofer container">
+			<p>
+				Наша компания предлагает купить погружной насос в виде блочного агрегата с погружным электродвигателем, ручкой для переноски, электрическим кабелем и встроенным устройством защиты от перегрева
+			</p>
+			<p>
+				Высокая надежность эксплуатации достигается за счет использования манжетного уплотнения, которое состоит из скользящего торцового уплотнения со стороны электродвигателя, масляной камеры и скользящего торцового уплотнения со стороны насоса. Еще один важный компонент насоса – электромотор, оснащенный охлаждающим кожухом.
+			</p>
+			<p>
+				У нас можно приобрести дренажный насос Кит или Wilo Drain по самым выгодным ценам.
+			</p>
+		</div>
+	</div>	
+	<footer class="footer" id="footer">
+		<div class="footer__ofer d-flex justify-content-between container">
+			<a href="/">
+				<img src="img/svg/logo 2.svg" alt="">
+			</a>
+			<div class="IP">
+				<p>
+					ИП:  Белоус Ольга Владимировна
+				</p>
+				<p>
+					ОГРНИП:  319507400012754
+				</p>
+			</div>
+			<div class="address__footer">
+				<p>
+					<img src="img/svg/maps-and-flags-col.svg" alt="">
+					г.Чехов, ул. Береговая 35
+				</p>
+				<a href="mail">
+					<img src="img/svg/close-envelope-col.svg" alt="">
+					info0112888@gmail.com 
+				</a>
+			</div>
+			<div class="phone__footer">
+				<p>
+					Отдел продаж:
+				</p>
+				<a href="tel:">
+					<img src="img/svg/phone-receiver-col.svg" alt="">
+					8-495-125-84-04
+				</a>
+				<p class="phone_2_p">
+					Руководитель:
+				</p>
+				<a href="tel:">
+					<img src="img/svg/phone-receiver-col.svg" alt="">
+					+7(967)-011-28-88
+				</a>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/may.js"></script>
+	<script src="js/бутстрап js/bootstrap.min.js"></script>
+</body>
+</html>

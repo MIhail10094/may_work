@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/butstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/may.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,700&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<!-- топ контакты-- и корзина -->
+		<div class="top_cont container d-flex align-items-center justify-content-between">
+			<a href="">
+				<img src="img/svg/logo 2.svg" alt="logo">
+			</a>
+			<div class="top_cont_div d-flex justify-content-between">
+				<div class="map__top">
+					<img src="img/svg/maps-and-flags.svg" alt="">
+					<span>
+						г.Чехов, ул. Береговая 35
+					</span>
+				</div>
+				<div class="mail_top">
+					<a href="">
+						<img src="img/svg/close-envelope.svg" alt="">
+						info0112888@gmail.com 
+					</a>
+				</div>
+				<div class="phone_top">
+					<a href="">
+						<img src="img/svg/phone-receiver.svg" alt="">
+						8-495-125-84-04
+					</a>
+				</div>
+			</div>
+			<div class="basket">
+				<a href="#">
+					<span>
+					</span>
+				</a>
+			</div>
+		</div>
+		<!-- nav__header -->
+		<div class="ofer ofer__heder">
+			<div class="nav__header">
+				<nav class="navbar navbar-expand-lg navbar-light container">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto" id="MyMenu">
+							<li class="nav-item">
+								<a  href="#">Главная</a>
+							</li>
+							<li class="nav-item">
+								<a href="#">Магазин</a>
+							</li>
+							<li class="nav-item">
+								<a  href="#">Ремонт септиков</a>
+							</li>
+							<li class="nav-item">
+								<a  href="#">О нас</a>
+							</li>
+							<li class="nav-item">
+								<a  href="#">Контакты и доставка</a>
+							</li>
+						</ul>
+						<form class="ml-auto search">
+							<input type="text" placeholder="Введите название товара">
+							<button>
+								
+							</button>
+						</form>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="basket__section container">
+		<h2 class="info_reapairs_h2">
+			Корзина
+		</h2> 
+
+		<div class="basket_block d-flex justify-content-between align-items-center">
+			<div class="basket_card">
+				<div class="text-center">
+					<img src="img/kompressor_hiblow_hp_80_foto.png" alt="">
+				</div>
+				<p>
+					Магнит для копрессора <br>
+					AIRMAC DB 80
+				</p>
+			</div>
+			<div class="basket_number">
+				<button class="plus"><span></span></button>
+				<input type="input" class="text-center">
+				<button class="minus"><span></span></button>
+			</div>
+			<button class="basket_close">
+				<span></span>
+			</button>
+		</div>
+		
+		<div class="total_summ">
+			<p>
+				Итого: <span>10 000 руб</span>
+			</p>
+		</div>
+	</section>
+
+	<section class="contact_section">
+		<h2 class="info_reapairs_h2">
+			Детали оплаты
+		</h2>
+		<form action="" class="basket__form">
+			<div class="d-flex justify-content-between">
+				<div class="">
+					<p>
+						Имя (обязательно)
+					</p>
+					<input type="text" name="name" class="input_text">
+					<p>
+						Адрес (обязательно)
+					</p>
+					<input type="text" name="name" class="input_text">
+					<p>
+						Телефон (обязательно)
+					</p>
+					<input type="text" name="name" class="input_text">
+					<p>
+						E-mail (обязательно)
+					</p>
+					<input type="text" name="name" class="input_text">
+				</div>
+				<div class="">
+					<p>
+						Оплата
+					</p>
+					<select name="" id="">
+						<option>Наличными при доставке</option>
+					</select>
+					<p>
+						Примечание к заказу (необязательно)
+					</p>
+					<input type="text" name="name" class="input_message">
+				</div>
+			</div>
+			<div class="text-center ntn_div">
+				<a href="#" class="btn_ofer">Оформить заказ</a>
+			</div>
+		</form>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="footer__ofer d-flex justify-content-between container">
+			<a href="/">
+				<img src="img/svg/logo 2.svg" alt="">
+			</a>
+			<div class="IP">
+				<p>
+					ИП:  Белоус Ольга Владимировна
+				</p>
+				<p>
+					ОГРНИП:  319507400012754
+				</p>
+			</div>
+			<div class="address__footer">
+				<p>
+					<img src="img/svg/maps-and-flags-col.svg" alt="">
+					г.Чехов, ул. Береговая 35
+				</p>
+				<a href="mail">
+					<img src="img/svg/close-envelope-col.svg" alt="">
+					info0112888@gmail.com 
+				</a>
+			</div>
+			<div class="phone__footer">
+				<p>
+					Отдел продаж:
+				</p>
+				<a href="tel:">
+					<img src="img/svg/phone-receiver-col.svg" alt="">
+					8-495-125-84-04
+				</a>
+				<p class="phone_2_p">
+					Руководитель:
+				</p>
+				<a href="tel:">
+					<img src="img/svg/phone-receiver-col.svg" alt="">
+					+7(967)-011-28-88
+				</a>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.4.0.min.js"></script>
+	<script src="js/may.js"></script>
+	<script src="js/бутстрап js/bootstrap.min.js"></script>
+</body>
+</html>
